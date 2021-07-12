@@ -1,0 +1,207 @@
+07-12 21:24:37.790  4567  4567 I RMS.HwSysResManager: preloadAppForLauncher packageName ru.yandex.taxi preloadType 101
+07-12 21:24:37.863  1766  3795 I HwWindowManagerServiceEx: set launch origin and target for: ru.yandex.taxi with delay 3000
+07-12 21:24:37.864  1766  6948 I ActivityTaskManager: START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 hwFlg=0x10 cmp=ru.yandex.taxi/.activity.StartActivity bnds=[294,151][546,450]} from uid 10063
+07-12 21:24:37.865  1766  6948 I ActivityTaskManager: ActivityRecord info: ActivityInfo{5136294 ru.yandex.taxi.activity.StartActivity}
+07-12 21:24:37.865  1766  6948 D ActivityTaskManager: TaskLaunchParamsModifier:task=null activity=ActivityRecord{3c2413d u0 ru.yandex.taxi/.activity.StartActivity t-1} display-from-source=0 display-id=0 display-windowing-mode=1
+07-12 21:24:37.866  1766  6948 D ActivityTaskManager: TaskLaunchParamsModifier:task=TaskRecord{706ae88 #6037 A=ru.yandex.taxi U=0 StackId=445 sz=1} activity=ActivityRecord{3c2413d u0 ru.yandex.taxi/.activity.StartActivity t-1} display-from-task=0 display-id=0 display-windowing-mode=1 activity-options-fullscreen=Rect(0, 0 - 0, 0) inherit-fullscreen non-freeform-display
+07-12 21:24:37.867  1766  6948 W HwActivityTaskManagerServiceEx: appSwitch from: com.huawei.android.launcher to: ru.yandex.taxi
+07-12 21:24:37.868  1766  2044 D HwGameAssistantController: UPDATE: mCurFgPkg=ru.yandex.taxi, mCurFgPid=23584, mIsCurGame=false
+07-12 21:24:37.868  3733  3760 I AssistantService-1100300: registerHwActivityNotifier call fromPackage:com.huawei.android.launcher, toPackage:ru.yandex.taxi
+07-12 21:24:37.868  1766  3379 I WiFi_PRO_WifiProStateMachine: current app ru.yandex.taxi, has changed
+07-12 21:24:37.868  3733  4053 D AssistantService-1100300: handleMessage app switch fromPackage:com.huawei.android.launcher, toPackage:ru.yandex.taxi
+07-12 21:24:37.869  3733  6005 I Hicom_Monitor: mAppSwitchNotifierEx, uid = 10152, packageName = ru.yandex.taxi, classNameru.yandex.taxi.activity.MainActivity
+07-12 21:24:37.869  3733  6005 I Hicom_Monitor: notifyForegroundAppChanged: pkg:ru.yandex.taxi
+07-12 21:24:37.870  3835  4134 I ScenarioService: app focus change from: com.huawei.android.launcher to:ru.yandex.taxi
+07-12 21:24:37.870  3733  6005 I Hicom_Monitor: notifyForegroundAppActivityChanged: className:ru.yandex.taxi.activity.MainActivity
+07-12 21:24:37.870  3835  4134 I ScenarioService: add focus on app:ru.yandex.taxi to visiblePkgs
+07-12 21:24:37.872  1766  6948 E ActivityTaskManager: START {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10600000 hwFlg=0x10 cmp=ru.yandex.taxi/.activity.StartActivity bnds=[294,151][546,450]} result: 2
+07-12 21:24:37.873  1766  2043 I HwAudioServiceEx: ComponentInfo : className = ru.yandex.taxi.activity.MainActivity, flag = showStartingWindow, isHomeActivity = , isTop = false
+07-12 21:24:37.882  1766  3543 V WindowManager: notifyAppResumed: wasStopped=true AppWindowToken{4af5743 token=Token{42a94f2 ActivityRecord{6e08ffd u0 ru.yandex.taxi/.activity.MainActivity t6037}}}
+07-12 21:24:37.884  3835  4134 D ScenarioService: front pkg : ru.yandex.taxi launcher: false
+07-12 21:24:37.884  3835  4134 D ScenarioService: new above launcher front pkgs: [ru.yandex.taxi]
+07-12 21:24:37.884  1766  3543 I WindowManager: Check opening app=AppWindowToken{4af5743 token=Token{42a94f2 ActivityRecord{6e08ffd u0 ru.yandex.taxi/.activity.MainActivity t6037}}}: allDrawn=false startingDisplayed=false startingMoved=false isRelaunching()=false startingWindow=Window{216b439 u0 SnapshotStartingWindow for taskId=6037}
+07-12 21:24:37.884  3835  4356 I PG_ash  : front pkg : ru.yandex.taxi
+07-12 21:24:37.885  3835  4518 I PGServer: report state:10000 event type:1 pid:0 uid:0 pkg:ru.yandex.taxi to pid: 1766
+07-12 21:24:37.885  3835  4518 I PGServer: report state:10000 event type:1 pid:0 uid:0 pkg:ru.yandex.taxi to pid: 3835
+07-12 21:24:37.886  3835  4134 I AppsUsage: scnOff:false FgAPP:ru.yandex.taxi BgAPP:com.huawei.android.launcher
+07-12 21:24:37.886  3835  4134 I PgLog   : ZAppActionService: send event info : eventId : 1, intArgs : 10152, 10063,  stringArgs : ru.yandex.taxi, com.huawei.android.launcher, 
+07-12 21:24:37.887  3835  4518 I SceneReceiver: state type: 10000 eventType:1 pid:0 uid:0 pkg:ru.yandex.taxi
+07-12 21:24:37.887  1766  2036 I WindowManager: Check opening app=AppWindowToken{4af5743 token=Token{42a94f2 ActivityRecord{6e08ffd u0 ru.yandex.taxi/.activity.MainActivity t6037}}}: allDrawn=false startingDisplayed=true startingMoved=false isRelaunching()=false startingWindow=Window{216b439 u0 SnapshotStartingWindow for taskId=6037}
+07-12 21:24:37.888  1766  2036 D RemoteAnimationController: createAnimationAdapter(): token=AppWindowToken{4af5743 token=Token{42a94f2 ActivityRecord{6e08ffd u0 ru.yandex.taxi/.activity.MainActivity t6037}}}
+07-12 21:24:37.889  1766  2036 V WindowManager: commitVisibility: AppWindowToken{4af5743 token=Token{42a94f2 ActivityRecord{6e08ffd u0 ru.yandex.taxi/.activity.MainActivity t6037}}}: hidden=false hiddenRequested=false
+07-12 21:24:37.912 10202 24422 I HiAdKit.OpenDeviceIdentifierServiceImpl:  get oaid from:ru.yandex.taxi
+07-12 21:24:37.917  1007 15992 D ITouchService: itouch currentPackageName = ru.yandex.taxi
+07-12 21:24:37.917  1007 15992 D ITouchService: itouch:app ru.yandex.taxi is  not game app
+07-12 21:24:37.917  1007 15992 D ITouchService: itouch:app ru.yandex.taxi is  not in StylusPenList
+07-12 21:24:37.924  1766  3795 I LocationManagerService: request 2931606 passive Request[POWER_NONE passive fastest=0] from ru.yandex.taxi(10152 foreground)
+07-12 21:24:37.926  1766  3795 I LocationManagerService: mPackageName = ru.yandex.taxi, interval = 0, provider:passive
+07-12 21:24:37.938  1766  6948 V ActivityManager: Successfully start provider ContentProviderRecord{ea2ece0 u0 ru.yandex.taxi/com.yandex.passport.internal.provider.InternalProvider} launchingApp=ProcessRecord{10bae3 23742:ru.yandex.taxi:passport/u0a152} caller pid= 23584
+07-12 21:24:37.940  1766  4406 I SensorService: enableSensor handle:0, packageName:ru.yandex.taxi.provider.n4, opPackageName:ru.yandex.taxi , rate=66667000
+07-12 21:24:37.941  1766  6948 I SensorService: enableSensor handle:1, packageName:ru.yandex.taxi.provider.n4, opPackageName:ru.yandex.taxi , rate=66667000
+07-12 21:24:37.955  3733  4598 I Hicom_Monitor: mActivityNotifierEx, className = ru.yandex.taxi.activity.MainActivity
+07-12 21:24:37.955  3733  4598 I Hicom_Monitor: notifyForegroundAppActivityChanged: className:ru.yandex.taxi.activity.MainActivity
+07-12 21:24:37.956  1766  2043 I HwAudioServiceEx: ComponentInfo : className = ru.yandex.taxi.activity.MainActivity, flag = onResume, isHomeActivity = , isTop = true
+07-12 21:24:37.956  3733  3829 D DollieActivityManagerAdapter: [Resumed] bg:true pid:23584 uid:10152 ComponentInfo{ru.yandex.taxi/ru.yandex.taxi.activity.MainActivity}
+07-12 21:24:37.956  3733  3829 E DollieAdapterService: notifyActivityState pkg:ru.yandex.taxi/ru.yandex.taxi.activity.MainActivity state:2 fg:true mUid:10152
+07-12 21:24:37.957  3733  3829 I HidataAppQoeP: foregroundUidAdd uid: 10152 name: ru.yandex.taxi activity state: true
+07-12 21:24:37.964  1766  3288 I WindowManager: Changing focus from null to Window{5e2d1d2 u0 ru.yandex.taxi/ru.yandex.taxi.activity.MainActivity} displayId=0 Callers=com.android.server.wm.RootWindowContainer.updateFocusedWindowLocked:211 com.android.server.wm.WindowManagerService.updateFocusedWindowLocked:6385 com.android.server.wm.WindowManagerService.relayoutWindow:2732 com.android.server.wm.Session.relayout:196 
+07-12 21:24:37.965  1766  3288 V HwPhoneWindowManager: updateSystemUiColorLw window=Window{5e2d1d2 u0 ru.yandex.taxi/ru.yandex.taxi.activity.MainActivity},EmuiStyle=0,StatusBarColor=0x0,NavigationBarColor=0x0, mForceNotchStatusBar=false
+07-12 21:24:37.970  3835  4134 I ScenarioService: refresh visibleApp:[ru.yandex.taxi]
+07-12 21:24:37.971  3835  4134 I PGServer: report state:14 event type:1 pid:-1 uid:-1 pkg:ru.yandex.taxi to pid: 3835
+07-12 21:24:37.971  3835  4134 I PF_API_JNI: ACCKIT_APS_NotifyInfo 3: ru.yandex.taxi
+07-12 21:24:37.971  1007 15992 I AGPService: aps-info: focus pkgName - ru.yandex.taxi, with 0 more apps
+07-12 21:24:37.971  1007 15992 I AGPService: FrameRateManager: aps-info: new pkgName - ru.yandex.taxi, type - 22
+07-12 21:24:37.971   758   758 D ACCKIT_ : pack:"ru.yandex.taxi"
+07-12 21:24:37.973  3733  3829 I SmartDualCardConfig: getAppType,pkgName=ru.yandex.taxi,appType=22
+07-12 21:24:37.973  3733  3829 I NetworkQoe: onAppStateChanged: mForeAppUid=10152, packageName:ru.yandex.taxi
+07-12 21:24:37.990  1766  4403 I LocationManagerService: request 5b6b4cb passive Request[POWER_NONE passive fastest=+1s0ms] from ru.yandex.taxi(10152 foreground)
+07-12 21:24:37.991  1766  4403 I LocationManagerService: mPackageName = ru.yandex.taxi, interval = 1000, provider:passive
+07-12 21:24:38.011  1766  3288 I LocationManagerService: request 5b6b4cb passive Request[POWER_NONE passive fastest=+1s0ms] from ru.yandex.taxi(10152 foreground)
+07-12 21:24:38.014  1766  3288 I LocationManagerService: mPackageName = ru.yandex.taxi, interval = 1000, provider:passive
+07-12 21:24:38.015  1766  3543 I WifiClientModeImpl: PkgInfo--uid=10152, processName=ru.yandex.taxi,pid=23584
+07-12 21:24:38.027  1766  3537 I LocationManagerService: request 5b6b4cb passive Request[POWER_NONE passive fastest=+1s0ms] from ru.yandex.taxi(10152 foreground)
+07-12 21:24:38.030  1766  3537 I LocationManagerService: mPackageName = ru.yandex.taxi, interval = 1000, provider:passive
+07-12 21:24:38.039  1766  2028 I LocationManagerService: request 5b6b4cb passive Request[POWER_NONE passive fastest=+1s0ms] from ru.yandex.taxi(10152 foreground)
+07-12 21:24:38.039  1766  2028 I LocationManagerService: mPackageName = ru.yandex.taxi, interval = 1000, provider:passive
+07-12 21:24:38.040 23584 23600 I ru.yandex.taxi: Background young concurrent copying GC freed 19559(1868KB) AllocSpace objects, 11(252KB) LOS objects, 0% free, 10MB/10MB, paused 3.044ms total 132.783ms
+07-12 21:24:38.165  1766  3543 V ActivityTaskManager: Activity idle: Token{42a94f2 ActivityRecord{6e08ffd u0 ru.yandex.taxi/.activity.MainActivity t6037}}
+07-12 21:24:38.182 23584 23600 I ru.yandex.taxi: Background concurrent copying GC freed 69906(3729KB) AllocSpace objects, 19(576KB) LOS objects, 49% free, 8209KB/16MB, paused 75us total 141.907ms
+07-12 21:24:38.302  1766  3543 I WindowManager: Animation done in AppWindowToken{4af5743 token=Token{42a94f2 ActivityRecord{6e08ffd u0 ru.yandex.taxi/.activity.MainActivity t6037}}} isHidden:false hiddenRequested:false
+07-12 21:24:38.314  1071  1316 I ScreemCommon: <LOGMGR> <NotifyTaskFinished> [Start App(Hot) ok, pkg=ru.yandex.taxi, act=ru.yandex.taxi.activity.MainActivity, fromPkg=ru.yandex.taxi, totalTime=446, adTime=0, touchTime=31, actCount=1, animTime=415]
+07-12 21:24:38.448  1766  2036 I WindowManager: Removing Window{216b439 u0 SnapshotStartingWindow for taskId=6037} from AppWindowToken{4af5743 token=Token{42a94f2 ActivityRecord{6e08ffd u0 ru.yandex.taxi/.activity.MainActivity t6037}}}
+07-12 21:24:39.252 23584 23584 I Glide   : 	at ru.yandex.taxi.u0.intercept(SourceFile:8)
+07-12 21:24:39.252 23584 23584 I Glide   : 	at ru.yandex.taxi.t3.intercept(SourceFile:33)
+07-12 21:24:39.323  3835  5442 I ThermalTraceService: code:1, appInfo:ru.yandex.taxi#10000, levelInfo:29,warm_shell_game,1#29,warm_shell_hc,2#29,warm_shell_default,1#0,warm_shell_sysh,1#0,warm_chg_cpu,3#0,warm_bschg_cpu,2#2,warm_charger,2#29,warm_shell,1
+07-12 21:24:39.963  3733  3829 D ConnCureConfigUtil: isCaredApp: input = ru.yandex.taxi
+07-12 21:24:40.200 23584 23613 W ru.yandex.taxi: Couldn't lock the profile file /data/user/0/ru.yandex.taxi/app_working_23584/oat/AGPWygjeE.23584.dex.cur.prof: Failed to open file '/data/user/0/ru.yandex.taxi/app_working_23584/oat/AGPWygjeE.23584.dex.cur.prof': No such file or directory
+07-12 21:24:40.200 23584 23613 W ru.yandex.taxi: Could not forcefully load profile /data/user/0/ru.yandex.taxi/app_working_23584/oat/AGPWygjeE.23584.dex.cur.prof
+07-12 21:24:40.200 23584 23613 W ru.yandex.taxi: Couldn't lock the profile file /data/user/0/ru.yandex.taxi/app_working_23584/oat/AWTIWpRyuiUKmkAaksFsiZL.23584.dex.cur.prof: Failed to open file '/data/user/0/ru.yandex.taxi/app_working_23584/oat/AWTIWpRyuiUKmkAaksFsiZL.23584.dex.cur.prof': No such file or directory
+07-12 21:24:40.200 23584 23613 W ru.yandex.taxi: Could not forcefully load profile /data/user/0/ru.yandex.taxi/app_working_23584/oat/AWTIWpRyuiUKmkAaksFsiZL.23584.dex.cur.prof
+07-12 21:24:40.200 23584 23613 W ru.yandex.taxi: Couldn't lock the profile file /data/user/0/ru.yandex.taxi/app_working_23584/oat/RkaevJccJkBRaygWxRWTugx.23584.dex.cur.prof: Failed to open file '/data/user/0/ru.yandex.taxi/app_working_23584/oat/RkaevJccJkBRaygWxRWTugx.23584.dex.cur.prof': No such file or directory
+07-12 21:24:40.200 23584 23613 W ru.yandex.taxi: Could not forcefully load profile /data/user/0/ru.yandex.taxi/app_working_23584/oat/RkaevJccJkBRaygWxRWTugx.23584.dex.cur.prof
+07-12 21:24:45.262 10202 24464 I HiAdKit.OpenDeviceIdentifierServiceImpl:  get oaid from:ru.yandex.taxi
+07-12 21:24:50.103  1766  3543 I LocationManagerService: request 5b6b4cb passive Request[POWER_NONE passive fastest=+1s0ms] from ru.yandex.taxi(10152 foreground)
+07-12 21:24:50.103  1766  3543 I LocationManagerService: mPackageName = ru.yandex.taxi, interval = 1000, provider:passive
+07-12 21:24:51.511 10202 24407 I HiAdKit.OpenDeviceIdentifierServiceImpl:  get oaid from:ru.yandex.taxi
+07-12 21:24:51.531  1766  3543 I LocationManagerService: request 5b6b4cb passive Request[POWER_NONE passive fastest=+1s0ms] from ru.yandex.taxi(10152 foreground)
+07-12 21:24:51.532  1766  3543 I LocationManagerService: mPackageName = ru.yandex.taxi, interval = 1000, provider:passive
+07-12 21:24:51.612  1766  2033 I StatusBarDisable: setFlags what=0 which=1 pkg=Window{5e2d1d2 u0 ru.yandex.taxi/ru.yandex.taxi.activity.MainActivity}
+07-12 21:24:51.614  1766  3537 I WindowManager: dispatchResized : win = Window{5e2d1d2 u0 ru.yandex.taxi/ru.yandex.taxi.activity.MainActivity} drawState = HAS_DRAWN
+07-12 21:24:51.665  1766  3543 I LocationManagerService: request 5b6b4cb passive Request[POWER_NONE passive fastest=+1s0ms] from ru.yandex.taxi(10152 foreground)
+07-12 21:24:51.666  1766  3543 I LocationManagerService: mPackageName = ru.yandex.taxi, interval = 1000, provider:passive
+07-12 21:24:51.820 23584 23600 I ru.yandex.taxi: Background concurrent copying GC freed 176894(8045KB) AllocSpace objects, 19(508KB) LOS objects, 49% free, 8189KB/15MB, paused 134us total 142.928ms
+07-12 21:24:51.830  1766  3537 I WindowManager: dispatchResized : win = Window{5e2d1d2 u0 ru.yandex.taxi/ru.yandex.taxi.activity.MainActivity} drawState = HAS_DRAWN
+07-12 21:24:51.874  1766  2033 I StatusBarDisable: setFlags what=0 which=1 pkg=Window{5e2d1d2 u0 ru.yandex.taxi/ru.yandex.taxi.activity.MainActivity}
+07-12 21:24:51.877  1766  3543 I WindowManager: dispatchResized : win = Window{5e2d1d2 u0 ru.yandex.taxi/ru.yandex.taxi.activity.MainActivity} drawState = HAS_DRAWN
+07-12 21:24:51.930  1766  3543 I LocationManagerService: request 5b6b4cb passive Request[POWER_NONE passive fastest=+1s0ms] from ru.yandex.taxi(10152 foreground)
+07-12 21:24:51.930  1766  3543 I LocationManagerService: mPackageName = ru.yandex.taxi, interval = 1000, provider:passive
+07-12 21:24:51.999 23584 23584 I chatty  : uid=10152(ru.yandex.taxi) identical 4 lines
+07-12 21:24:52.010  1766  2033 I StatusBarDisable: setFlags what=0 which=1 pkg=Window{5e2d1d2 u0 ru.yandex.taxi/ru.yandex.taxi.activity.MainActivity}
+07-12 21:24:52.011  1766  4406 I WindowManager: dispatchResized : win = Window{5e2d1d2 u0 ru.yandex.taxi/ru.yandex.taxi.activity.MainActivity} drawState = HAS_DRAWN
+07-12 21:24:52.050  1766  3543 I LocationManagerService: request 5b6b4cb passive Request[POWER_NONE passive fastest=+1s0ms] from ru.yandex.taxi(10152 foreground)
+07-12 21:24:52.050  1766  3543 I LocationManagerService: mPackageName = ru.yandex.taxi, interval = 1000, provider:passive
+07-12 21:24:52.698  1766  3537 I LocationManagerService: request 5b6b4cb passive Request[POWER_NONE passive fastest=+1s0ms] from ru.yandex.taxi(10152 foreground)
+07-12 21:24:52.699  1766  3537 I LocationManagerService: mPackageName = ru.yandex.taxi, interval = 1000, provider:passive
+07-12 21:24:52.703  1766  4406 I LocationManagerService: request 5b6b4cb passive Request[POWER_NONE passive fastest=+1s0ms] from ru.yandex.taxi(10152 foreground)
+07-12 21:24:52.703  1766  4406 I LocationManagerService: mPackageName = ru.yandex.taxi, interval = 1000, provider:passive
+07-12 21:24:52.705  1766  2028 I LocationManagerService: request 5b6b4cb passive Request[POWER_NONE passive fastest=+1s0ms] from ru.yandex.taxi(10152 foreground)
+07-12 21:24:52.706  1766  2028 I LocationManagerService: mPackageName = ru.yandex.taxi, interval = 1000, provider:passive
+07-12 21:24:52.725  1766  4406 I LocationManagerService: request 5b6b4cb passive Request[POWER_NONE passive fastest=+1s0ms] from ru.yandex.taxi(10152 foreground)
+07-12 21:24:52.729  1766  4406 I LocationManagerService: mPackageName = ru.yandex.taxi, interval = 1000, provider:passive
+07-12 21:24:52.829  1766  2033 I StatusBarDisable: setFlags what=0 which=1 pkg=Window{5e2d1d2 u0 ru.yandex.taxi/ru.yandex.taxi.activity.MainActivity}
+07-12 21:24:52.830  1766  4406 I WindowManager: dispatchResized : win = Window{5e2d1d2 u0 ru.yandex.taxi/ru.yandex.taxi.activity.MainActivity} drawState = HAS_DRAWN
+07-12 21:24:52.883  1766  2028 I LocationManagerService: request 5b6b4cb passive Request[POWER_NONE passive fastest=+1s0ms] from ru.yandex.taxi(10152 foreground)
+07-12 21:24:52.884  1766  2028 I LocationManagerService: mPackageName = ru.yandex.taxi, interval = 1000, provider:passive
+07-12 21:24:53.041  1766  2028 I SensorService: disableSensor handle:0, packageName:ru.yandex.taxi.provider.n4
+07-12 21:24:53.042  1766  4406 I SensorService: disableSensor handle:1, packageName:ru.yandex.taxi.provider.n4
+07-12 21:24:54.265  1766  3543 I WifiClientModeImpl: PkgInfo--uid=10152, processName=ru.yandex.taxi,pid=23584
+07-12 21:24:56.696  1766  3543 I LocationManagerService: request 5b6b4cb passive Request[POWER_NONE passive fastest=+1s0ms] from ru.yandex.taxi(10152 foreground)
+07-12 21:24:56.696  1766  3543 I LocationManagerService: mPackageName = ru.yandex.taxi, interval = 1000, provider:passive
+07-12 21:24:57.750  1766  3288 I LocationManagerService: request 5b6b4cb passive Request[POWER_NONE passive fastest=+1s0ms] from ru.yandex.taxi(10152 foreground)
+07-12 21:24:57.750  1766  3288 I LocationManagerService: mPackageName = ru.yandex.taxi, interval = 1000, provider:passive
+07-12 21:25:01.926  1766  3543 I LocationManagerService: request 5b6b4cb passive Request[POWER_NONE passive fastest=+1s0ms] from ru.yandex.taxi(10152 foreground)
+07-12 21:25:01.928  1766  3543 I LocationManagerService: mPackageName = ru.yandex.taxi, interval = 1000, provider:passive
+07-12 21:25:03.861  1766  3543 I LocationManagerService: request 5b6b4cb passive Request[POWER_NONE passive fastest=+1s0ms] from ru.yandex.taxi(10152 foreground)
+07-12 21:25:03.862  1766  3543 I LocationManagerService: mPackageName = ru.yandex.taxi, interval = 1000, provider:passive
+07-12 21:25:04.013  1766  3543 I LocationManagerService: request 5b6b4cb passive Request[POWER_NONE passive fastest=+1s0ms] from ru.yandex.taxi(10152 foreground)
+07-12 21:25:04.014  1766  3543 I LocationManagerService: mPackageName = ru.yandex.taxi, interval = 1000, provider:passive
+07-12 21:25:07.552  1766  2028 I LocationManagerService: request 5b6b4cb passive Request[POWER_NONE passive fastest=+1s0ms] from ru.yandex.taxi(10152 foreground)
+07-12 21:25:07.554  1766  2028 I LocationManagerService: mPackageName = ru.yandex.taxi, interval = 1000, provider:passive
+07-12 21:25:07.681 23584 23600 I ru.yandex.taxi: Background concurrent copying GC freed 164906(7803KB) AllocSpace objects, 37(964KB) LOS objects, 49% free, 7693KB/15MB, paused 85us total 145.717ms
+07-12 21:25:08.633  1766  3288 I LocationManagerService: request 5b6b4cb passive Request[POWER_NONE passive fastest=+1s0ms] from ru.yandex.taxi(10152 foreground)
+07-12 21:25:08.634  1766  3288 I LocationManagerService: mPackageName = ru.yandex.taxi, interval = 1000, provider:passive
+07-12 21:25:09.628  1766  3795 I WifiClientModeImpl: PkgInfo--uid=10152, processName=ru.yandex.taxi,pid=23584
+07-12 21:25:09.929  1766  3537 I LocationManagerService: request 5b6b4cb passive Request[POWER_NONE passive fastest=+1s0ms] from ru.yandex.taxi(10152 foreground)
+07-12 21:25:09.929  1766  3537 I LocationManagerService: mPackageName = ru.yandex.taxi, interval = 1000, provider:passive
+07-12 21:25:11.224  1766  3288 I LocationManagerService: request 5b6b4cb passive Request[POWER_NONE passive fastest=+1s0ms] from ru.yandex.taxi(10152 foreground)
+07-12 21:25:11.224  1766  3288 I LocationManagerService: mPackageName = ru.yandex.taxi, interval = 1000, provider:passive
+07-12 21:25:13.225  1766  3288 I LocationManagerService: request 5b6b4cb passive Request[POWER_NONE passive fastest=+1s0ms] from ru.yandex.taxi(10152 foreground)
+07-12 21:25:13.225  1766  3288 I LocationManagerService: mPackageName = ru.yandex.taxi, interval = 1000, provider:passive
+07-12 21:25:15.709 23584 23600 I ru.yandex.taxi: NativeAlloc concurrent copying GC freed 117192(5603KB) AllocSpace objects, 28(688KB) LOS objects, 49% free, 7577KB/14MB, paused 150us total 129.926ms
+07-12 21:25:17.041  1766  2028 I LocationManagerService: request 5b6b4cb passive Request[POWER_NONE passive fastest=+1s0ms] from ru.yandex.taxi(10152 foreground)
+07-12 21:25:17.041  1766  2028 I LocationManagerService: mPackageName = ru.yandex.taxi, interval = 1000, provider:passive
+07-12 21:25:20.223 23584 23613 W ru.yandex.taxi: Couldn't lock the profile file /data/user/0/ru.yandex.taxi/app_working_23584/oat/AGPWygjeE.23584.dex.cur.prof: Failed to open file '/data/user/0/ru.yandex.taxi/app_working_23584/oat/AGPWygjeE.23584.dex.cur.prof': No such file or directory
+07-12 21:25:20.223 23584 23613 W ru.yandex.taxi: Could not forcefully load profile /data/user/0/ru.yandex.taxi/app_working_23584/oat/AGPWygjeE.23584.dex.cur.prof
+07-12 21:25:20.223 23584 23613 W ru.yandex.taxi: Couldn't lock the profile file /data/user/0/ru.yandex.taxi/app_working_23584/oat/AWTIWpRyuiUKmkAaksFsiZL.23584.dex.cur.prof: Failed to open file '/data/user/0/ru.yandex.taxi/app_working_23584/oat/AWTIWpRyuiUKmkAaksFsiZL.23584.dex.cur.prof': No such file or directory
+07-12 21:25:20.223 23584 23613 W ru.yandex.taxi: Could not forcefully load profile /data/user/0/ru.yandex.taxi/app_working_23584/oat/AWTIWpRyuiUKmkAaksFsiZL.23584.dex.cur.prof
+07-12 21:25:20.223 23584 23613 W ru.yandex.taxi: Couldn't lock the profile file /data/user/0/ru.yandex.taxi/app_working_23584/oat/RkaevJccJkBRaygWxRWTugx.23584.dex.cur.prof: Failed to open file '/data/user/0/ru.yandex.taxi/app_working_23584/oat/RkaevJccJkBRaygWxRWTugx.23584.dex.cur.prof': No such file or directory
+07-12 21:25:20.223 23584 23613 W ru.yandex.taxi: Could not forcefully load profile /data/user/0/ru.yandex.taxi/app_working_23584/oat/RkaevJccJkBRaygWxRWTugx.23584.dex.cur.prof
+07-12 21:25:23.848  1766  2028 I LocationManagerService: request 5b6b4cb passive Request[POWER_NONE passive fastest=+1s0ms] from ru.yandex.taxi(10152 foreground)
+07-12 21:25:23.851  1766  2028 I LocationManagerService: mPackageName = ru.yandex.taxi, interval = 1000, provider:passive
+07-12 21:25:25.003  1766  3543 I WifiClientModeImpl: PkgInfo--uid=10152, processName=ru.yandex.taxi,pid=23584
+07-12 21:25:28.861  1766  3288 I LocationManagerService: request 5b6b4cb passive Request[POWER_NONE passive fastest=+1s0ms] from ru.yandex.taxi(10152 foreground)
+07-12 21:25:28.861  1766  3288 I LocationManagerService: mPackageName = ru.yandex.taxi, interval = 1000, provider:passive
+07-12 21:25:28.887  1766  3288 I LocationManagerService: request 5b6b4cb passive Request[POWER_NONE passive fastest=+1s0ms] from ru.yandex.taxi(10152 foreground)
+07-12 21:25:28.888  1766  3288 I LocationManagerService: mPackageName = ru.yandex.taxi, interval = 1000, provider:passive
+07-12 21:25:28.896  1766  3288 I LocationManagerService: request 5b6b4cb passive Request[POWER_NONE passive fastest=+1s0ms] from ru.yandex.taxi(10152 foreground)
+07-12 21:25:28.896  1766  3288 I LocationManagerService: mPackageName = ru.yandex.taxi, interval = 1000, provider:passive
+07-12 21:25:28.925  1766  3543 I LocationManagerService: request 5b6b4cb passive Request[POWER_NONE passive fastest=+1s0ms] from ru.yandex.taxi(10152 foreground)
+07-12 21:25:28.925  1766  3543 I LocationManagerService: mPackageName = ru.yandex.taxi, interval = 1000, provider:passive
+07-12 21:25:28.929  1766  3543 I LocationManagerService: request 5b6b4cb passive Request[POWER_NONE passive fastest=+1s0ms] from ru.yandex.taxi(10152 foreground)
+07-12 21:25:28.929  1766  3543 I LocationManagerService: mPackageName = ru.yandex.taxi, interval = 1000, provider:passive
+07-12 21:25:28.932  1766  2028 I SensorService: enableSensor handle:0, packageName:ru.yandex.taxi.provider.n4, opPackageName:ru.yandex.taxi , rate=66667000
+07-12 21:25:28.933  1766  4406 I SensorService: enableSensor handle:1, packageName:ru.yandex.taxi.provider.n4, opPackageName:ru.yandex.taxi , rate=66667000
+07-12 21:25:28.933  1766  3543 I LocationManagerService: request 5b6b4cb passive Request[POWER_NONE passive fastest=+1s0ms] from ru.yandex.taxi(10152 foreground)
+07-12 21:25:28.934  1766  3543 I LocationManagerService: mPackageName = ru.yandex.taxi, interval = 1000, provider:passive
+07-12 21:25:28.941 23584 23584 W View    : requestLayout() improperly called by ru.yandex.taxi.widget.ShimmeringRobotoTextView{33b0a85 V.ED..... ......ID 0,77-242,137 #7f0a0102 app:id/bottom} during layout: running second layout pass
+07-12 21:25:28.990 23584 23584 W View    : requestLayout() improperly called by ru.yandex.taxi.widget.ShimmeringRobotoTextView{33b0a85 V.ED..... ......ID 0,77-242,137 #7f0a0102 app:id/bottom} during layout: running second layout pass
+07-12 21:25:29.078  1766  3288 I LocationManagerService: request 5b6b4cb passive Request[POWER_NONE passive fastest=+1s0ms] from ru.yandex.taxi(10152 foreground)
+07-12 21:25:29.079  1766  3288 I LocationManagerService: mPackageName = ru.yandex.taxi, interval = 1000, provider:passive
+07-12 21:25:29.082  1766  3543 I LocationManagerService: request 5b6b4cb passive Request[POWER_NONE passive fastest=+1s0ms] from ru.yandex.taxi(10152 foreground)
+07-12 21:25:29.083  1766  3543 I LocationManagerService: mPackageName = ru.yandex.taxi, interval = 1000, provider:passive
+07-12 21:25:29.085  1766  4406 I LocationManagerService: request 5b6b4cb passive Request[POWER_NONE passive fastest=+1s0ms] from ru.yandex.taxi(10152 foreground)
+07-12 21:25:29.085  1766  4406 I LocationManagerService: mPackageName = ru.yandex.taxi, interval = 1000, provider:passive
+07-12 21:25:29.096  1766  3288 I LocationManagerService: request 5b6b4cb passive Request[POWER_NONE passive fastest=+1s0ms] from ru.yandex.taxi(10152 foreground)
+07-12 21:25:29.096  1766  3288 I LocationManagerService: mPackageName = ru.yandex.taxi, interval = 1000, provider:passive
+07-12 21:25:29.104 23584 23859 I Glide   : 	at ru.yandex.taxi.u0.intercept(SourceFile:8)
+07-12 21:25:29.104 23584 23859 I Glide   : 	at ru.yandex.taxi.t3.intercept(SourceFile:33)
+07-12 21:25:29.105 23584 23859 I Glide   : 	at ru.yandex.taxi.u0.intercept(SourceFile:8)
+07-12 21:25:29.105 23584 23859 I Glide   : 	at ru.yandex.taxi.t3.intercept(SourceFile:33)
+07-12 21:25:29.115  1766  4406 I LocationManagerService: request 5b6b4cb passive Request[POWER_NONE passive fastest=+1s0ms] from ru.yandex.taxi(10152 foreground)
+07-12 21:25:29.116  1766  4406 I LocationManagerService: mPackageName = ru.yandex.taxi, interval = 1000, provider:passive
+07-12 21:25:29.119  1766  3288 I LocationManagerService: request 5b6b4cb passive Request[POWER_NONE passive fastest=+1s0ms] from ru.yandex.taxi(10152 foreground)
+07-12 21:25:29.121  1766  3288 I LocationManagerService: mPackageName = ru.yandex.taxi, interval = 1000, provider:passive
+07-12 21:25:29.344  1766  3543 I LocationManagerService: request 5b6b4cb passive Request[POWER_NONE passive fastest=+1s0ms] from ru.yandex.taxi(10152 foreground)
+07-12 21:25:29.344  1766  3543 I LocationManagerService: mPackageName = ru.yandex.taxi, interval = 1000, provider:passive
+07-12 21:25:33.782  1766  4406 I WindowManager: Changing focus from Window{5e2d1d2 u0 ru.yandex.taxi/ru.yandex.taxi.activity.MainActivity} to Window{11454c3 u0 StatusBar} displayId=0 Callers=com.android.server.wm.RootWindowContainer.updateFocusedWindowLocked:211 com.android.server.wm.WindowManagerService.updateFocusedWindowLocked:6385 com.android.server.wm.WindowManagerService.relayoutWindow:2732 com.android.server.wm.Session.relayout:196 
+07-12 21:25:36.427  1766  3543 I WindowManager: Changing focus from Window{11454c3 u0 StatusBar} to Window{5e2d1d2 u0 ru.yandex.taxi/ru.yandex.taxi.activity.MainActivity} displayId=0 Callers=com.android.server.wm.RootWindowContainer.updateFocusedWindowLocked:211 com.android.server.wm.WindowManagerService.updateFocusedWindowLocked:6385 com.android.server.wm.WindowManagerService.relayoutWindow:2732 com.android.server.wm.Session.relayout:196 
+07-12 21:25:36.428  1766  2033 I StatusBarDisable: setFlags what=0 which=1 pkg=Window{5e2d1d2 u0 ru.yandex.taxi/ru.yandex.taxi.activity.MainActivity}
+07-12 21:25:38.926  1766  2033 W HwActivityTaskManagerServiceEx: setResumedActivityUncheckLocked start call, from: ActivityRecord{6e08ffd u0 ru.yandex.taxi/.activity.MainActivity t6037}, to: ActivityRecord{89df6c8 u0 com.huawei.android.launcher/.unihome.UniHomeLauncher t2}
+07-12 21:25:38.926  1766  2033 W HwActivityTaskManagerServiceEx: appSwitch from: ru.yandex.taxi to: com.huawei.android.launcher
+07-12 21:25:38.927  3733  3760 I AssistantService-1100300: registerHwActivityNotifier call fromPackage:ru.yandex.taxi, toPackage:com.huawei.android.launcher
+07-12 21:25:38.927  3835  4134 I ScenarioService: app focus change from: ru.yandex.taxi to:com.huawei.android.launcher
+07-12 21:25:38.927  3733  4053 D AssistantService-1100300: handleMessage app switch fromPackage:ru.yandex.taxi, toPackage:com.huawei.android.launcher
+07-12 21:25:38.928  1766  2033 I WindowManager: Changing focus from Window{5e2d1d2 u0 ru.yandex.taxi/ru.yandex.taxi.activity.MainActivity} to null displayId=0 Callers=com.android.server.wm.RootWindowContainer.updateFocusedWindowLocked:211 com.android.server.wm.WindowManagerService.updateFocusedWindowLocked:6385 com.android.server.wm.ActivityDisplay.setFocusedApp:1557 com.android.server.wm.ActivityTaskManagerService.setResumedActivityUncheckLocked:6305 
+07-12 21:25:38.933  1012  2177 D dubaid  : [EpsDisplay.cpp] CacheLcdRefreshInfo# eps lcd: forground app is ru.yandex.taxi, diff time is 61052, lastLcdrage = 60
+07-12 21:25:38.939  3835  4518 I PGServer: report state:10000 event type:2 pid:0 uid:0 pkg:ru.yandex.taxi to pid: 1766
+07-12 21:25:38.939  3835  4518 I PGServer: report state:10000 event type:2 pid:0 uid:0 pkg:ru.yandex.taxi to pid: 3835
+07-12 21:25:38.941  3835  4518 I SceneReceiver: state type: 10000 eventType:2 pid:0 uid:0 pkg:ru.yandex.taxi
+07-12 21:25:38.941  3835  4134 I AppsUsage: scnOff:false FgAPP:com.huawei.android.launcher BgAPP:ru.yandex.taxi
+07-12 21:25:38.942  3835  4134 I PgLog   : ZAppActionService: send event info : eventId : 1, intArgs : 10063, 10152,  stringArgs : com.huawei.android.launcher, ru.yandex.taxi, 
+07-12 21:25:38.942  3835  5444 D ThermalTrace_ThermalRaise: current pkg:ru.yandex.taxi
+07-12 21:25:38.943  1766  3288 I SensorService: disableSensor handle:0, packageName:ru.yandex.taxi.provider.n4
+07-12 21:25:38.946  1766  2028 I SensorService: disableSensor handle:1, packageName:ru.yandex.taxi.provider.n4
+07-12 21:25:38.961  1766  2043 I HwAudioServiceEx: ComponentInfo : className = ru.yandex.taxi.activity.MainActivity, flag = onPause, isHomeActivity = , isTop = false
+07-12 21:25:38.962  3733  3829 D DollieActivityManagerAdapter: [Paused] pid:23584 uid:10152 ComponentInfo{ru.yandex.taxi/ru.yandex.taxi.activity.MainActivity} uidState:2
+07-12 21:25:38.968  1766  2035 V ActivityTaskManager: Stopping ActivityRecord{6e08ffd u0 ru.yandex.taxi/.activity.MainActivity t6037}: nowVisible=false animating=true finishing=false
+07-12 21:25:38.994  1766  2035 V ActivityTaskManager: Stopping ActivityRecord{6e08ffd u0 ru.yandex.taxi/.activity.MainActivity t6037}: nowVisible
